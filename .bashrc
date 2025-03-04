@@ -87,3 +87,8 @@ PROMPT_COMMAND=set_exit_status
 # At the end of ~/.bashrc
 ~/ravelights/motd.sh
 
+
+
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/git
+
